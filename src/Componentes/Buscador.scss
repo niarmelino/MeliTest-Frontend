@@ -1,0 +1,18 @@
+@import '../index.scss';
+
+.Buscador {
+	background-color: $Amarillo;
+	padding: $MargenChico 0px;
+}
+
+.Buscador input {
+	border: none;
+	font-size: 18px;
+	padding: 4px 6px 5px 6px;
+}
+
+.Buscador a {
+	padding:7px 9px 8px 9px;
+	background-color: $GrisClaro;
+	cursor: pointer;
+}

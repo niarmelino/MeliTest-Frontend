@@ -1,0 +1,18 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+$GrisClaro: #EEEEEE;
+$Amarillo: #FFE600;
+$MargenChico: 8px;
+$MargenMediano: 16px;
+$MargenGrande: 32px;
+
+html {
+	background-color: $GrisClaro;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	font-size: 16px;
+	background-color: $GrisClaro !important;
+}
