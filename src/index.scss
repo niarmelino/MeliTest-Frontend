@@ -1,18 +1,27 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-$GrisClaro: #EEEEEE;
+$Gris1: #EEEEEE;
+$Gris2: #999999;
+$Gris3: #666666;
+$Negro: #333333;
 $Amarillo: #FFE600;
-$MargenChico: 8px;
+$MargenChico: 6px;
 $MargenMediano: 16px;
 $MargenGrande: 32px;
+$Radio: 4px;
 
 html {
-	background-color: $GrisClaro;
+	background-color: $Gris1;
 }
 
-body{
-	margin:0px;
-	padding:0px;
+body {
+	margin: 0px;
+	padding: 0px;
 	font-size: 16px;
-	background-color: $GrisClaro !important;
+	background-color: $Gris1 !important;
+	font-family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.row {
+	margin: auto;
 }

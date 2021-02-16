@@ -1,0 +1,30 @@
+@import '../../index.scss';
+
+.Barra {
+	background-color: $Amarillo;
+}
+
+.Buscador {
+	padding: 9px 0px;
+}
+
+.Buscador input {
+	border: none;
+	font-size: 18px;
+	padding: 5px 14px 6px 14px;
+	width: calc(100% - 121px);
+	border-radius: $Radio 0px 0px $Radio;
+	box-sizing: border-box;
+}
+
+.Buscador a {
+	padding: 10px 12px 11px 12px;
+	background-color: $Gris1;
+	cursor: pointer;
+	border-radius: 0px $Radio $Radio 0px;;
+}
+
+.Buscador img.Logo {
+	margin-top:1px;
+	margin-right: 26px;
+}

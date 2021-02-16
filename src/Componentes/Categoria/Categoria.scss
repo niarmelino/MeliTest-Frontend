@@ -1,0 +1,25 @@
+@import '../../index.scss';
+
+.Categoria {
+	padding: $MargenMediano 0px;
+	font-size: 14px;
+	color: $Gris2;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+li div {
+	display: inline-block;
+}
+
+li div.Separador {
+	padding:0px $MargenChico;
+}
