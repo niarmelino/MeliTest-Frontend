@@ -19,9 +19,10 @@
 
 .Buscador a {
 	padding: 10px 12px 11px 12px;
-	background-color: $Gris1;
+	background-color: $GrisClaro;
 	cursor: pointer;
-	border-radius: 0px $Radio $Radio 0px;;
+	border-radius: 0px $Radio $Radio 0px;
+	;
 }
 
 .Buscador img.Logo {
