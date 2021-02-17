@@ -1,2 +1,45 @@
 @import '../../index.scss';
 
+.ListaItem {
+	display:flex;
+	padding: $MargenMediano 0px;
+}
+
+.ContenedorFoto {
+	flex-shrink: 0;
+	padding-right: $MargenMediano;
+	padding-left: $MargenMediano;
+}
+
+	.ContenedorFoto .Foto {
+		width: 180px;
+		padding-top: 180px;
+		border-radius: $Radio;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size:contain;
+	}
+
+.ListaItem .Info{
+	padding-top: $MargenMediano;
+	width: calc(80% - 212px);
+}
+
+.ListaItem .Info .Precio {
+	font-size: 24px;
+	color:$Negro;
+	flex: 1 1 auto;
+}
+
+.ListaItem .Info .Titulo {
+	padding-top: $MargenGrande;
+	font-size: 18px;
+	color: $GrisOscuro;
+}
+
+.ListaItem .Provincia {
+	padding-top: $MargenMediano;
+	font-size: 12px;
+	color: $GrisMedio;
+	width:20%;
+}
