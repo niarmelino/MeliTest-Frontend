@@ -28,7 +28,10 @@
 .ListaItem .Info .Precio {
 	font-size: 24px;
 	color:$Negro;
-	flex: 1 1 auto;
+}
+
+.ListaItem .Info .Precio .ImgEnvio {
+	margin: 4px 0px 5px 0px;
 }
 
 .ListaItem .Info .Titulo {

@@ -9,7 +9,7 @@ export default function ListaItem(props) {
 
 			<div className="Info">
 				<div className="Precio">
-					$ { props.Item.price.amount}
+					$ {props.Item.price.amount} {props.Item.free_shipping ? <img className="ImgEnvio" src={process.env.PUBLIC_URL + "/ic_shipping.png"} /> : '' }
 				</div>
 				<div className="Titulo">
 					{props.Item.title}

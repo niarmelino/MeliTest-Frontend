@@ -1,16 +1,29 @@
 import './App.css';
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import Inicio from "./Componentes/Inicio/Inicio";
 import Buscador from "./Componentes/Buscador/Buscador";
-import Categoria from "./Componentes/Categoria/Categoria";
 import Lista from "./Componentes/Lista/Lista";
+import Detalle from "./Componentes/Detalle/Detalle";
 
-function App() {
+export default function App()
+{
     return (
-        <>
-            <Buscador />
-            <Categoria />
-            <Lista />
-        </>
+        <Router>
+            <div>
+                <Buscador />
+                
+                <Switch>
+                    <Route exact path="/">
+                        <Inicio />
+                    </Route>
+                    <Route exact path="/items">
+                        <Lista />
+                    </Route>
+                    <Route path="/items/:id">
+                        <Detalle />
+                    </Route>
+                </Switch>
+            </div>
+        </Router>
     );
 }
-
-export default App;
