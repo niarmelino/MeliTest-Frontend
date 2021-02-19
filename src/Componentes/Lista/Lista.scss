@@ -5,3 +5,39 @@
 	border-radius: $Radio $Radio 0px 0px;
 	padding: 0px $MargenMediano 0px $MargenMediano;
 }
+
+.SinDatos {
+	text-align:center;
+	margin: $MargenGrande auto;
+	padding:$MargenGrande $MargenMediano;
+}
+
+.SinDatos .Imagen {
+	display:inline-block;
+	padding-right: $MargenGrande;
+	vertical-align: top;
+}
+
+.SinDatos .Texto {
+	display: inline-block;
+	text-align:left;
+	vertical-align:top;
+}
+
+.SinDatos .Texto h3 {
+	font-size: 24px;
+}
+
+.SinDatos .Texto ul {
+	padding-left: 16px;
+	margin:0px;
+}
+
+.SinDatos .Texto ul li{
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.SinDatos .Texto ul li strong {
+	font-weight: bold;
+}

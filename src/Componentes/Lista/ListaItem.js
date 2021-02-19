@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./ListaItem.scss";
 
 export default function ListaItem(props) {
@@ -9,10 +10,13 @@ export default function ListaItem(props) {
 
 			<div className="Info">
 				<div className="Precio">
-					$ {props.Item.price.amount} {props.Item.free_shipping ? <img className="ImgEnvio" src={process.env.PUBLIC_URL + "/ic_shipping.png"} /> : '' }
+					{props.Item.price.currency}
+                    &nbsp;
+                    {props.Item.price.amount}
+					<sup>{props.Item.price.decimals}</sup>
 				</div>
 				<div className="Titulo">
-					{props.Item.title}
+					<Link to={'/items/' + props.Item.id }>{props.Item.title}</Link>
 				</div>
 			</div>
 

@@ -40,6 +40,11 @@
 	color: $GrisOscuro;
 }
 
+.ListaItem .Info .Titulo a {
+	text-decoration:none;
+	color: $GrisOscuro;
+}
+
 .ListaItem .Provincia {
 	padding-top: $MargenMediano;
 	font-size: 12px;

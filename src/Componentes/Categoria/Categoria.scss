@@ -6,20 +6,20 @@
 	color: $GrisMedio;
 }
 
-ul {
+ul.Categoria {
 	padding: 0px;
 	margin: 0px;
 }
 
-li {
+ul.Categoria li {
 	list-style-type: none;
 	display: inline-block;
 }
 
-li div {
+ul.Categoria li div {
 	display: inline-block;
 }
 
-li div.Separador {
-	padding:0px $MargenChico;
+ul.Categoria li div.Separador {
+	padding: 0px $MargenChico;
 }
