@@ -10,10 +10,7 @@ export default function ListaItem(props) {
 
 			<div className="Info">
 				<div className="Precio">
-					{props.Item.price.currency}
-                    &nbsp;
-                    {props.Item.price.amount}
-					<sup>{props.Item.price.decimals}</sup>
+					{props.Item.price.currency} {props.Item.price.amount}<sup>{props.Item.price.decimals}</sup>
 				</div>
 				<div className="Titulo">
 					<Link to={'/items/' + props.Item.id }>{props.Item.title}</Link>

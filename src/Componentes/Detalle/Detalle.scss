@@ -1,0 +1,78 @@
+@import '../../index.scss';
+
+$FotoGrande: 680px;
+
+.SinDatos h4 {
+	margin-top: 1.6em;
+	color: $Negro;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 1.645em;
+	padding: 0 15px;
+	line-height: 1;
+}
+
+.Producto .Foto {
+	display: inline-block;
+	width: $FotoGrande;
+	padding-top: $FotoGrande;
+	border-radius: $Radio;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	vertical-align: top;
+}
+
+.Producto .Info {
+	display: inline-block;
+	width: calc(100% - 680px);
+	vertical-align:top;
+	padding-top: $MargenGrande;
+}
+
+.Producto .Info .Condicion{
+	font-size:14px;
+	padding-bottom: $MargenMediano;
+}
+
+.Producto .Info .Titulo {
+	padding-bottom: $MargenGrande;
+}
+
+.Producto .Info .Titulo h1 {
+	font-size: 24px;
+	word-break: break-word;
+	padding-right: $MargenMediano;
+}
+
+.Producto .Info .Precio {
+	font-size: 46px;
+	padding-right: $MargenMediano;
+}
+
+.Producto .Info .Comprar {
+	padding-right: $MargenMediano;
+}
+
+.Producto .Info .Comprar button{
+	display: block;
+	background-color: $Azul;
+	color: $Blanco;
+	font-size: 18px;
+	border:none;
+	border-radius: $Radio;
+	width: 100%;
+	padding:13px;
+}
+
+.Producto .Descripcion h3 {
+	color: $Negro;
+	font-size: 28px;
+	padding: $MargenMediano $MargenMediano $MargenGrande $MargenMediano;
+}
+
+.Producto .Descripcion p {
+	color: $GrisMedio;
+	font-size: 16px;
+	padding: 0px $MargenMediano $MargenGrande $MargenMediano;
+}
